@@ -13,7 +13,16 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 """Set-ExecutionPolicy RemoteSigned –Scope Process
 env\scripts\activate
-python manage.py runserver"""
+python manage.py runserver
+
+
+
+#builds out python databases:   manage.py migrate
+#when to make a migrations:   python manage.py makemigrations
+# then to aply it              python manage.py migrate
+# 
+# 
+# to create a admin in promt     python manage.py createsuperuser"""
 
 from pathlib import Path
 
