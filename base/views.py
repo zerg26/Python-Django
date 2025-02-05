@@ -53,7 +53,7 @@ def logoutUser(request):
     return redirect('home')
 
 def registerPage(request):
-    
+
     form = UserCreationForm()
 
     if request.method == 'POST':
