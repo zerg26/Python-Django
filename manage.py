@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-"""Django's command-line utility for administrative tasks."""
+"""Django's command-line utility for administrative tasks.
+<img src="{% static 'images/screan shot.png' %}" /> to add image"""
 import os
 import sys
 
